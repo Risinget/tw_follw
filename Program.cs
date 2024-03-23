@@ -19,7 +19,7 @@ namespace TwF
         static async Task Main(string[] args)
         {
             // Prueba con un solo token para simplificar
-            await ProcessToken("dx6bzs8om7scx4x9bxoxnzq047gn5n");
+            await ProcessToken("xxxxzs8xxxxx4x9bxoxxxxx7gn5n");
             Console.WriteLine("Token procesado. Presiona cualquier tecla para salir.");
             Console.ReadLine();
         }
