@@ -177,7 +177,7 @@ namespace TwF
             };
 
 
-            await page.GotoAsync("https://www.twitch.tv/risinget_");
+            await page.GotoAsync("https://www.twitch.tv/yourchannel_");
             await page.WaitForTimeoutAsync(1000);
 
 
@@ -233,9 +233,9 @@ namespace TwF
                     {
                         input = new
                         {
-                            userId = "516406472",
+                            userId = "youruserid", // user id is same to target id 
                             disableNotifications = false,
-                            targetID = "516406472",
+                            targetID = "yourchannelid",
                         },
                     },
                 };
